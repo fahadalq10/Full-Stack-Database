@@ -1,0 +1,105 @@
+/* Basic styling for the body to apply overall font and background */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header styles for clear visibility and emphasis */
+h1, h2 {
+  color: #444;
+  margin: 0 0 20px 0;
+}
+
+/* Universal button styling for consistency */
+button {
+  background-color: #5c67f2; /* A pleasant blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a54e1; /* Darker shade for hover state */
+}
+
+/* Styling for tables to improve readability */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #666;
+  color: white;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+/* Styles for forms for neat alignment and spacing */
+form {
+  margin-top: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+select {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style adjustments for input and label for better accessibility */
+input:focus,
+select:focus {
+  border-color: #5c67f2;
+  outline: none;
+}
+
+/* Additional helper classes for text alignment */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
